@@ -6,4 +6,35 @@ html(lang="es")
     link(rel="stylesheet", href="css/app.css" type="text/css")
     link(rel="stylesheet", href="htpps://fonts.googleapis.com/css?family=Oswald", type="text/css")
 body
-  
+  header
+    .container
+      nav(class="row between middle")
+        .col-4
+          a(href="index.html") img(src="http://lorempixel.com/300/300", alt="")
+        div(classs="col-4 end")
+          ul
+            li.col
+              a(href="index.html" class="header_l") Inicio
+            li.col
+              a(href="portafolio.html" class="header_l") Portafolio
+            li.col
+              a(href="contacto.html" class="header_l") Contacto
+  section
+    div(class="container row")
+      h1(class="col-2") LaFarra
+      p.col-4  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In reprehenderit atque beatae veniam placeat totam consequuntur optio, odit eum temporibus.
+      a(href="#" class="boton_a col-1") Ver mas
+  section
+    div.container
+      div("portafolio row")
+        img(src="http://lorempixel.com/200/200", alt="portafolio icono",class="col-2")
+        p.col-4  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        div(class="icons_portafolio row between")
+          a(href="#", class="boton_b col-2") Web design
+          a(href="#", class="boton_b col-2") graphic design
+          a(href="#", class="boton_b col-2") flat design
+        div(class="imagenes_portafolio between row")
+          img(src="http://lorempixel.com/300/300", alt="#" , class="col-2")
+          img(src="http://lorempixel.com/300/300", alt="#" , class="col-2")
+          img(src="http://lorempixel.com/300/300", alt="#" , class="col-2")
+  footer
